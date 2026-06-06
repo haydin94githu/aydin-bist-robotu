@@ -20,7 +20,8 @@ jobs:
 
       - name: Paketleri yukle
         run: |
-          pip install yfinance pandas numpy openpyxl requests nbconvert
+         pip install yfinance pandas numpy openpyxl requests nbconvert notebook ipykernel tradingview-screener
+         python -m ipykernel install --user --name python3
 
       - name: Notebook calistir
         env:
