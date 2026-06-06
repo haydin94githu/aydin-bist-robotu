@@ -21,5 +21,4 @@ jobs:
       - name: Paketleri yukle
         run: |
           pip install yfinance
-
-         
+          
