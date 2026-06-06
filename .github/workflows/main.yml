@@ -20,12 +20,11 @@ jobs:
 
       - name: Paketleri yukle
         run: |
-          pip install yfinance
-          
-          
-       - name: Notebook çalıştır
+          pip install yfinance pandas numpy openpyxl requests nbconvert
+
+      - name: Notebook calistir
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          jupyter nbconvert --to notebook --execute "Untitled_adli_not_defterinin_kopyasi.ipynb"
+          jupyter nbconvert --to notebook --execute "Untitled_adli_not_defterinin_kopyasi.ipynb" --output "sonuc.ipynb"
