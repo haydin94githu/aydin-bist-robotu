@@ -1,0 +1,30 @@
+name: Aydin BIST Robotu
+
+on:
+  schedule:
+    - cron: "30 5 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  run-bist-robot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo dosyalarini al
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Paketleri yukle
+        run: |
+          pip install yfinance pandas numpy openpyxl requests nbconvert
+
+      - name: Notebook calistir
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: |
+          jupyter nbconvert --to notebook --execute "Untitled_adli_not_defterinin_kopyasi.ipynb" --output "sonuc.ipynb"
