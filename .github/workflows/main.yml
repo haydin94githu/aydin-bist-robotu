@@ -21,3 +21,10 @@ jobs:
       - name: Paketleri yukle
         run: |
           pip install yfinance
+
+          - name: Notebook çalıştır
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          jupyter nbconvert --to notebook --execute "Untitled_adli_not_defterinin_kopyasi.ipynb"
