@@ -28,4 +28,4 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          jupyter nbconvert --to notebook --execute "bist_robot.ipynb" --output "sonuc.ipynb"
+          jupyter nbconvert --to notebook --execute "bist_robot.ipynb (1)" --output "sonuc.ipynb"
