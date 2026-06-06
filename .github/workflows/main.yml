@@ -20,7 +20,7 @@ jobs:
 
       - name: Paketleri yukle
         run: |
-          pip install yfinance pandas numpy openpyxl requests nbconvert
+          jupyter nbconvert --to notebook --execute "bist_robot.ipynb" --output "sonuc.ipynb"
 
       - name: Notebook calistir
         env:
