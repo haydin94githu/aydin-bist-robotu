@@ -25,7 +25,7 @@ jobs:
 
       - name: Notebook calistir
         env:
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          CHAT_ID: ${{ 5920392803 }}
+         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+         CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           jupyter nbconvert --to notebook --execute "bist_robot.ipynb" --output "sonuc.ipynb"
