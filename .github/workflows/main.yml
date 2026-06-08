@@ -1,9 +1,9 @@
 name: Aydin BIST Robotu
 
 on:
+  push:
   schedule:
-    - cron: "*/15 * * * *"
-
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
