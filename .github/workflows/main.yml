@@ -1,6 +1,6 @@
 name: Aydin BIST Robotu
 
-on:
+'on':
   schedule:
     - cron: "30 5 * * 1-5"   # 08:30
     - cron: "0 7 * * 1-5"    # 10:00
