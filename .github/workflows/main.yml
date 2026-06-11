@@ -1,17 +1,16 @@
 name: Aydin BIST Robotu
 
 on:
-  push:
-  schedule:
-    - cron: "*/5 * * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "*/15 7-15 * * 1-5"
 
 jobs:
   run-bist-robot:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Repo dosyalarini al
+      - name: Repo dosyalarını al
         uses: actions/checkout@v4
 
       - name: Python kur
@@ -19,14 +18,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Paketleri yukle
+      - name: Paketleri yükle
         run: |
-         pip install yfinance pandas numpy openpyxl requests nbconvert notebook ipykernel tradingview-screener
-         python -m ipykernel install --user --name python3
+          pip install yfinance pandas numpy openpyxl requests nbconvert notebook ipykernel tradingview-screener
 
-      - name: Notebook calistir
+      - name: Notebook çalıştır
         env:
-         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-         CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           jupyter nbconvert --to notebook --execute "bist_robot.ipynb" --output "sonuc.ipynb"
