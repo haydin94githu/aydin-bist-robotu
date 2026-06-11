@@ -1,14 +1,13 @@
 name: Aydin BIST Robotu
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "*/15 7-15 * * 1-5"
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
 
 jobs:
   run-bist-robot:
     runs-on: ubuntu-latest
-
     steps:
       - name: Repo dosyalarını al
         uses: actions/checkout@v4
