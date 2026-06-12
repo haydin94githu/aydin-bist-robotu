@@ -30,11 +30,17 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           jupyter nbconvert --to notebook --execute "bist_robot.ipynb" --output "sonuc.ipynb"
+         
 
-          - name: Sanal portfoyu kaydet
+    - name: Sanal portfoyu kaydet
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add sanal_portfoy.json
-          git commit -m "Sanal portfoy guncellendi" || echo "Degisiklik yok"
-          git push
+
+          if [ -f sanal_portfoy.json ]; then
+            git add sanal_portfoy.json
+            git commit -m "Sanal portfoy guncellendi" || echo "Degisiklik yok"
+            git push || echo "Push yapilamadi"
+          else
+            echo "sanal_portfoy.json bulunamadi, kayit atlanıyor"
+          fi
