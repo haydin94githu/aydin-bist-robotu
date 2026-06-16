@@ -1,9 +1,9 @@
 name: Aydin BIST Robotu
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "*/5 * * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,8 +11,9 @@ permissions:
 jobs:
   run-bist-robot:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Repo dosyalarını al
+      - name: Repo dosyalarini al
         uses: actions/checkout@v4
 
       - name: Python kur
@@ -20,19 +21,18 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Paketleri yükle
+      - name: Paketleri yukle
         run: |
           pip install yfinance pandas numpy openpyxl requests nbconvert notebook ipykernel tradingview-screener
 
-      - name: Notebook çalıştır
+      - name: Notebook calistir
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           jupyter nbconvert --to notebook --execute "bist_robot.ipynb" --output "sonuc.ipynb"
-         
 
-    - name: Sanal portfoyu kaydet
+      - name: Sanal portfoyu kaydet
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
