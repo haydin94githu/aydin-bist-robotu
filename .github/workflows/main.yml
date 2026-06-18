@@ -1,9 +1,9 @@
 name: Aydin BIST Robotu
 
 on:
-  schedule:
-    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [run-bist-robot]
 
 permissions:
   contents: write
