@@ -1,5 +1,17 @@
 {
-  "bakiye": 100000,
-  "pozisyonlar": {},
+  "bakiye": 90005.05,
+  "pozisyonlar": {
+    "PAPIL": {
+      "alis": 15.03,
+      "adet": 665,
+      "maliyet": 9994.95,
+      "stop": 14.15,
+      "hedef": 16.31,
+      "puan": 117,
+      "spek": 20,
+      "risk_odul": 1.45,
+      "tarih": "2026-06-18 22:22"
+    }
+  },
   "kapali_islemler": []
 }
