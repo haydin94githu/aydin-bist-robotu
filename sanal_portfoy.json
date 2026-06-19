@@ -1,5 +1,5 @@
 {
-  "bakiye": 90005.05,
+  "bakiye": 70016.45,
   "pozisyonlar": {
     "PAPIL": {
       "alis": 15.03,
@@ -11,6 +11,28 @@
       "spek": 20,
       "risk_odul": 1.45,
       "tarih": "2026-06-18 22:22"
+    },
+    "KORDS": {
+      "alis": 79.3,
+      "adet": 126,
+      "maliyet": 9991.8,
+      "stop": 71.15,
+      "hedef": 87.45,
+      "puan": 77,
+      "spek": 40,
+      "risk_odul": 1.0,
+      "tarih": "2026-06-19 15:18"
+    },
+    "FONET": {
+      "alis": 5.68,
+      "adet": 1760,
+      "maliyet": 9996.8,
+      "stop": 5.0,
+      "hedef": 6.37,
+      "puan": 43,
+      "spek": 20,
+      "risk_odul": 1.01,
+      "tarih": "2026-06-19 15:18"
     }
   },
   "kapali_islemler": []
