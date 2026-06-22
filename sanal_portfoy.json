@@ -1,5 +1,5 @@
 {
-  "bakiye": 70016.45,
+  "bakiye": 60017.89,
   "pozisyonlar": {
     "PAPIL": {
       "alis": 15.03,
@@ -33,6 +33,17 @@
       "spek": 20,
       "risk_odul": 1.01,
       "tarih": "2026-06-19 15:18"
+    },
+    "EPLAS": {
+      "alis": 5.98,
+      "adet": 1672,
+      "maliyet": 9998.56,
+      "stop": 5.63,
+      "hedef": 6.49,
+      "puan": 41,
+      "spek": 20,
+      "risk_odul": 1.46,
+      "tarih": "2026-06-22 11:02"
     }
   },
   "kapali_islemler": []
