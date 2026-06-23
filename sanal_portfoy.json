@@ -1,5 +1,5 @@
 {
-  "bakiye": 60017.89,
+  "bakiye": 50019.63,
   "pozisyonlar": {
     "PAPIL": {
       "alis": 15.03,
@@ -44,6 +44,17 @@
       "spek": 20,
       "risk_odul": 1.46,
       "tarih": "2026-06-22 11:02"
+    },
+    "OSTIM": {
+      "alis": 2.74,
+      "adet": 3649,
+      "maliyet": 9998.26,
+      "stop": 2.63,
+      "hedef": 3.32,
+      "puan": 77,
+      "spek": 20,
+      "risk_odul": 5.27,
+      "tarih": "2026-06-23 14:18"
     }
   },
   "kapali_islemler": []
