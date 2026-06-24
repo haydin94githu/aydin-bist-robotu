@@ -1,5 +1,5 @@
 {
-  "bakiye": 57500.079999999994,
+  "bakiye": 47500.159999999996,
   "pozisyonlar": {
     "PAPIL": {
       "alis": 15.03,
@@ -44,6 +44,17 @@
       "spek": 20,
       "risk_odul": 1.46,
       "tarih": "2026-06-22 11:02"
+    },
+    "IHLGM": {
+      "alis": 1.96,
+      "adet": 5102,
+      "maliyet": 9999.92,
+      "stop": 1.75,
+      "hedef": 2.19,
+      "puan": 63,
+      "spek": 40,
+      "risk_odul": 1.1,
+      "tarih": "2026-06-24 21:03"
     }
   },
   "kapali_islemler": [
