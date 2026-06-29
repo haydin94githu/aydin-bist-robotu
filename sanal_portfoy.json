@@ -1,5 +1,5 @@
 {
-  "bakiye": 58372.909999999996,
+  "bakiye": 48382.409999999996,
   "pozisyonlar": {
     "KORDS": {
       "alis": 79.3,
@@ -44,6 +44,17 @@
       "spek": 40,
       "risk_odul": 1.1,
       "tarih": "2026-06-24 21:03"
+    },
+    "CEOEM": {
+      "alis": 26.5,
+      "adet": 377,
+      "maliyet": 9990.5,
+      "stop": 23.85,
+      "hedef": 29.36,
+      "puan": 43,
+      "spek": 20,
+      "risk_odul": 1.08,
+      "tarih": "2026-06-29 15:18"
     }
   },
   "kapali_islemler": [
