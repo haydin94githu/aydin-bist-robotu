@@ -1,17 +1,6 @@
 {
-  "bakiye": 47500.159999999996,
+  "bakiye": 58372.909999999996,
   "pozisyonlar": {
-    "PAPIL": {
-      "alis": 15.03,
-      "adet": 665,
-      "maliyet": 9994.95,
-      "stop": 14.15,
-      "hedef": 16.31,
-      "puan": 117,
-      "spek": 20,
-      "risk_odul": 1.45,
-      "tarih": "2026-06-18 22:22"
-    },
     "KORDS": {
       "alis": 79.3,
       "adet": 126,
@@ -66,6 +55,15 @@
       "Kar/Zarar": -2517.81,
       "Neden": "STOP",
       "Tarih": "2026-06-24 08:32"
+    },
+    {
+      "Hisse": "PAPIL",
+      "Alış": 15.03,
+      "Satış": 16.35,
+      "Adet": 665,
+      "Kar/Zarar": 877.8,
+      "Neden": "HEDEF",
+      "Tarih": "2026-06-29 09:02"
     }
   ]
 }
