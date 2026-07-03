@@ -1,17 +1,6 @@
 {
-  "bakiye": 48382.409999999996,
+  "bakiye": 57341.009999999995,
   "pozisyonlar": {
-    "KORDS": {
-      "alis": 79.3,
-      "adet": 126,
-      "maliyet": 9991.8,
-      "stop": 71.15,
-      "hedef": 87.45,
-      "puan": 77,
-      "spek": 40,
-      "risk_odul": 1.0,
-      "tarih": "2026-06-19 15:18"
-    },
     "FONET": {
       "alis": 5.68,
       "adet": 1760,
@@ -75,6 +64,15 @@
       "Kar/Zarar": 877.8,
       "Neden": "HEDEF",
       "Tarih": "2026-06-29 09:02"
+    },
+    {
+      "Hisse": "KORDS",
+      "Alış": 79.3,
+      "Satış": 71.1,
+      "Adet": 126,
+      "Kar/Zarar": -1033.2,
+      "Neden": "STOP",
+      "Tarih": "2026-07-03 07:33"
     }
   ]
 }
