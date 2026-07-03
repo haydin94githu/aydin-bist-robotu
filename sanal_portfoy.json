@@ -1,5 +1,5 @@
 {
-  "bakiye": 57341.009999999995,
+  "bakiye": 47341.38,
   "pozisyonlar": {
     "FONET": {
       "alis": 5.68,
@@ -44,6 +44,17 @@
       "spek": 20,
       "risk_odul": 1.08,
       "tarih": "2026-06-29 15:18"
+    },
+    "IHGZT": {
+      "alis": 1.37,
+      "adet": 7299,
+      "maliyet": 9999.63,
+      "stop": 1.27,
+      "hedef": 1.49,
+      "puan": 117,
+      "spek": 20,
+      "risk_odul": 1.2,
+      "tarih": "2026-07-03 10:17"
     }
   },
   "kapali_islemler": [
