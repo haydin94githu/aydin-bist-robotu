@@ -1,5 +1,5 @@
 {
-  "bakiye": 56167.84,
+  "bakiye": 46196.34,
   "pozisyonlar": {
     "FONET": {
       "alis": 5.68,
@@ -44,6 +44,17 @@
       "spek": 20,
       "risk_odul": 1.2,
       "tarih": "2026-07-03 10:17"
+    },
+    "HATSN": {
+      "alis": 53.9,
+      "adet": 185,
+      "maliyet": 9971.5,
+      "stop": 49.73,
+      "hedef": 67.7,
+      "puan": 49,
+      "spek": 20,
+      "risk_odul": 3.31,
+      "tarih": "2026-07-09 11:32"
     }
   },
   "kapali_islemler": [
