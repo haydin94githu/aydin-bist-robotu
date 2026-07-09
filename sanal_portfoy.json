@@ -1,5 +1,5 @@
 {
-  "bakiye": 47341.38,
+  "bakiye": 56167.84,
   "pozisyonlar": {
     "FONET": {
       "alis": 5.68,
@@ -22,17 +22,6 @@
       "spek": 20,
       "risk_odul": 1.46,
       "tarih": "2026-06-22 11:02"
-    },
-    "IHLGM": {
-      "alis": 1.96,
-      "adet": 5102,
-      "maliyet": 9999.92,
-      "stop": 1.75,
-      "hedef": 2.19,
-      "puan": 63,
-      "spek": 40,
-      "risk_odul": 1.1,
-      "tarih": "2026-06-24 21:03"
     },
     "CEOEM": {
       "alis": 26.5,
@@ -84,6 +73,15 @@
       "Kar/Zarar": -1033.2,
       "Neden": "STOP",
       "Tarih": "2026-07-03 07:33"
+    },
+    {
+      "Hisse": "IHLGM",
+      "Alış": 1.96,
+      "Satış": 1.73,
+      "Adet": 5102,
+      "Kar/Zarar": -1173.46,
+      "Neden": "STOP",
+      "Tarih": "2026-07-09 10:17"
     }
   ]
 }
