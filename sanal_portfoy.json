@@ -1,5 +1,5 @@
 {
-  "bakiye": 54978.74,
+  "bakiye": 44980.659999999996,
   "pozisyonlar": {
     "EPLAS": {
       "alis": 5.98,
@@ -44,6 +44,17 @@
       "spek": 20,
       "risk_odul": 3.31,
       "tarih": "2026-07-09 11:32"
+    },
+    "OZGYO": {
+      "alis": 2.14,
+      "adet": 4672,
+      "maliyet": 9998.08,
+      "stop": 1.99,
+      "hedef": 2.29,
+      "puan": 74,
+      "spek": 20,
+      "risk_odul": 1.0,
+      "tarih": "2026-07-10 14:17"
     }
   },
   "kapali_islemler": [
