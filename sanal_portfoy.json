@@ -1,17 +1,6 @@
 {
-  "bakiye": 46196.34,
+  "bakiye": 54978.74,
   "pozisyonlar": {
-    "FONET": {
-      "alis": 5.68,
-      "adet": 1760,
-      "maliyet": 9996.8,
-      "stop": 5.0,
-      "hedef": 6.37,
-      "puan": 43,
-      "spek": 20,
-      "risk_odul": 1.01,
-      "tarih": "2026-06-19 15:18"
-    },
     "EPLAS": {
       "alis": 5.98,
       "adet": 1672,
@@ -93,6 +82,15 @@
       "Kar/Zarar": -1173.46,
       "Neden": "STOP",
       "Tarih": "2026-07-09 10:17"
+    },
+    {
+      "Hisse": "FONET",
+      "Alış": 5.68,
+      "Satış": 4.99,
+      "Adet": 1760,
+      "Kar/Zarar": -1214.4,
+      "Neden": "STOP",
+      "Tarih": "2026-07-10 08:18"
     }
   ]
 }
