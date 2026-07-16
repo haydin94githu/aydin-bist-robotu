@@ -1,17 +1,6 @@
 {
-  "bakiye": 46366.7,
+  "bakiye": 55562.7,
   "pozisyonlar": {
-    "EPLAS": {
-      "alis": 5.98,
-      "adet": 1672,
-      "maliyet": 9998.56,
-      "stop": 5.63,
-      "hedef": 6.49,
-      "puan": 41,
-      "spek": 20,
-      "risk_odul": 1.46,
-      "tarih": "2026-06-22 11:02"
-    },
     "IHGZT": {
       "alis": 1.37,
       "adet": 7299,
@@ -111,6 +100,15 @@
       "Kar/Zarar": 1394.9,
       "Neden": "HEDEF",
       "Tarih": "2026-07-13 15:18"
+    },
+    {
+      "Hisse": "EPLAS",
+      "Alış": 5.98,
+      "Satış": 5.5,
+      "Adet": 1672,
+      "Kar/Zarar": -802.56,
+      "Neden": "STOP",
+      "Tarih": "2026-07-16 07:38"
     }
   ]
 }
