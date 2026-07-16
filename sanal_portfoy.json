@@ -1,5 +1,5 @@
 {
-  "bakiye": 55562.7,
+  "bakiye": 45563.82,
   "pozisyonlar": {
     "IHGZT": {
       "alis": 1.37,
@@ -44,6 +44,17 @@
       "spek": 30,
       "risk_odul": 2.19,
       "tarih": "2026-07-14 13:18"
+    },
+    "GSDHO": {
+      "alis": 5.63,
+      "adet": 1776,
+      "maliyet": 9998.88,
+      "stop": 5.03,
+      "hedef": 6.34,
+      "puan": 62,
+      "spek": 20,
+      "risk_odul": 1.18,
+      "tarih": "2026-07-16 09:02"
     }
   },
   "kapali_islemler": [
